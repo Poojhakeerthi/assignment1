@@ -20,7 +20,7 @@ public class generic_min {
         Integer v=iob.Min();
         Double v1=dob.Min();
         System.out.println("Minimum of integer array : "+v);
-        System.out.println("Minimum of integer array : "+v1);
+        System.out.println("Minimum of double array : "+v1);
     }
 }
 class genmin<t extends Number>{
